@@ -15,7 +15,7 @@ module.exports = {
     DESCRIPTION:           process.env.DESCRIPTION || "Samyaza MD Bot",
     ALIVE_IMG:             process.env.ALIVE_IMG || "https://files.catbox.moe/5uli5p.jpeg",
     LIVE_MSG:              process.env.LIVE_MSG || "Samyaza MD is active",
-    MODE:                  process.env.MODE || "both",
+    MODE:                  process.env.MODE || "private",
     AUTO_STATUS_SEEN:      toBool(process.env.AUTO_STATUS_SEEN,      true),
     AUTO_STATUS_REACT:     toBool(process.env.AUTO_STATUS_REACT,     true),
     AUTO_STATUS_REPLY:     toBool(process.env.AUTO_STATUS_REPLY,     true),
